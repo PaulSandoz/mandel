@@ -3,8 +3,8 @@
 
 (defn- mandelbrot [^double cr ^double ci ^long limit]
   (loop [rate limit
-         zr cr
-         zi ci]
+         zr 0.0
+         zi 0.0]
     (let [zr2 (* zr zr)
           zi2 (* zi zi)]
     (if (and (> rate 0) (< (+ zr2 zi2) 4.0))
