@@ -1,0 +1,3 @@
+# mandel
+
+Simple mandelbrot generator written in Clojure. Using Compojure to display in web browser.
