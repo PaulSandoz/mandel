@@ -2,8 +2,6 @@
   :description "A Mandelbrot web app"
 
   :cloudbees-app-id "sandoz/mandel"
-  :cloudbees-api-key ~(.trim (slurp "/Users/sandoz/cloudbees/sandoz.apikey"))
-  :cloudbees-api-secret ~(.trim (slurp "/Users/sandoz/cloudbees/sandoz.secret"))
 
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [org.clojure/clojure-contrib "1.2.0"]
